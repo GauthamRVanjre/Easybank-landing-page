@@ -1,4 +1,5 @@
 import "./App.css";
+import Features from "./components/FeaturesSection/Features";
 import Intro from "./components/IntroSection/Intro";
 import Navbar from "./components/Navbar";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <Intro />
+      <Features />
     </>
   );
 }

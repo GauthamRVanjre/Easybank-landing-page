@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   overflow-x: hidden;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .intro-content {
@@ -10,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-top: -50px;
   margin-right: 100px;
   padding: 20px 90px;
 }
@@ -32,6 +34,6 @@
 }
 
 .intro-mockup {
-  height: 750px;
+  height: 800px;
   margin-right: -100px;
 }

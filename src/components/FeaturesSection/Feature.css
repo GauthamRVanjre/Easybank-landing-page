@@ -1,0 +1,25 @@
+.features-section {
+  padding: 120px 90px;
+  margin-top: -140px;
+  background-color: hsl(220, 16%, 96%);
+}
+
+.features-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.features-intro h3 {
+  font-size: 38px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.features-intro p {
+  opacity: 0.7;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
