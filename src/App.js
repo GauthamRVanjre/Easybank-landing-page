@@ -1,10 +1,13 @@
 import "./App.css";
+import Intro from "./components/IntroSection/Intro";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <a href="#collapseExample" className="btn btn-primary">
-      Bootstrap button
-    </a>
+    <>
+      <Navbar />
+      <Intro />
+    </>
   );
 }
 
