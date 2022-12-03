@@ -30,3 +30,45 @@ nav {
   border-radius: 15px;
   padding: 8px 20px;
 }
+
+.hamburger-icon {
+  display: none;
+}
+
+.hamburger-icon button {
+  border: none;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+  .nav-links-container {
+    display: none;
+  }
+  .nav-links-parent {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    margin-left: 40px;
+    flex-direction: column;
+    width: 80%;
+    height: calc(100vh - 470px);
+    border-radius: 10px;
+  }
+  .nav-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+    font-size: 20px;
+  }
+  .nav-links li {
+    padding-top: 15px;
+  }
+}
