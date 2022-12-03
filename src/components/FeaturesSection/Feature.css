@@ -2,6 +2,7 @@
   padding: 120px 90px;
   margin-top: -140px;
   background-color: hsl(220, 16%, 96%);
+  overflow-x: hidden;
 }
 
 .features-intro {
@@ -9,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 40px;
 }
 
 .features-intro h3 {
@@ -22,4 +24,13 @@
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.features-card h5 {
+  margin-top: 40px;
+}
+
+.features-card p {
+  margin-top: 20px;
+  opacity: 0.8;
 }

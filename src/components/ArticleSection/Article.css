@@ -1,0 +1,37 @@
+.articles-section {
+  padding: 100px 90px;
+  overflow-x: hidden;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.articles-intro h3 {
+  font-size: 38px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 18rem;
+  height: 450px;
+  border: none;
+}
+
+.card img {
+  height: 200px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-body p {
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.card-body h5 {
+  opacity: 0.9;
+}
