@@ -9,6 +9,11 @@
 
 li {
   list-style-type: none;
+  cursor: pointer;
+}
+
+li:hover {
+  color: hsl(136, 65%, 51%);
 }
 
 .footer-info {
@@ -31,7 +36,12 @@ li {
 }
 
 .footer-logos li {
-  padding-right: 8px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.footer-logos li img:hover {
+  color: hsl(136, 65%, 51%);
 }
 
 .info-block-2 li {

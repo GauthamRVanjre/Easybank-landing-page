@@ -19,6 +19,13 @@ nav {
   cursor: pointer;
 }
 
+.nav-links li:hover {
+  opacity: 1;
+  border-bottom: 4px solid hsl(136, 65%, 51%);
+  padding-bottom: 0px;
+  margin-bottom: -40px;
+}
+
 .invite-btn {
   color: #fff;
   background-image: linear-gradient(
@@ -27,8 +34,12 @@ nav {
     hsl(192, 70%, 51%)
   );
   border: none;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 8px 20px;
+}
+
+.invite-btn:hover {
+  opacity: 0.4;
 }
 
 .hamburger-icon {

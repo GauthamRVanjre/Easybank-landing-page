@@ -35,6 +35,11 @@
 
 .card-body h5 {
   opacity: 0.9;
+  cursor: pointer;
+}
+
+.card-body h5:hover {
+  color: hsl(136, 65%, 71%);
 }
 
 @media screen and (max-width: 768px) {
