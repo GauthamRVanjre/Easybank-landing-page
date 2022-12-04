@@ -53,3 +53,34 @@ li {
 .info-block-4 li:last-child {
   opacity: 0.7;
 }
+
+@media screen and (max-width: 768px) {
+  footer {
+    height: 600px;
+  }
+  .footer-section {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .footer-logos {
+    margin-top: 20px;
+  }
+  .info-block-3 {
+    margin-left: -15px;
+    margin-top: -10px;
+  }
+  .info-block-4 {
+    margin-top: 70px;
+  }
+  .info-block-4 button {
+    width: 80%;
+    border-radius: 20px;
+  }
+}

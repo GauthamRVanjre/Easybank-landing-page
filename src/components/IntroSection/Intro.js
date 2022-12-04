@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import mockup from "../../images/image-mockups.png";
+import mockup_desktop from "../../images/image-mockups.png";
 
 const Intro = () => {
   return (
@@ -18,7 +18,7 @@ const Intro = () => {
         <div className="intro-illustration">
           <img
             className="intro-mockup"
-            src={mockup}
+            src={mockup_desktop}
             alt="mockup illustration"
           />
         </div>

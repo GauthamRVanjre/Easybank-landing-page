@@ -37,3 +37,38 @@
   height: 800px;
   margin-right: -100px;
 }
+
+@media screen and (max-width: 768px) {
+  .intro-section {
+    flex-direction: column-reverse;
+  }
+  .intro-mockup {
+    margin-top: -200px;
+    height: 650px;
+  }
+  .intro-illustration {
+    background-image: url("../../images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .intro-content {
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .intro-content h1 {
+    font-size: 42px;
+    opacity: 0.8;
+  }
+  .intro-content p {
+    margin-bottom: 30px;
+  }
+  .intro-content button {
+    font-weight: 600;
+    width: 60%;
+    border-radius: 20px;
+  }
+}

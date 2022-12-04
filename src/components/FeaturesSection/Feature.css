@@ -34,3 +34,10 @@
   margin-top: 20px;
   opacity: 0.8;
 }
+
+@media screen and (max-width: 768px) {
+  .features-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+}

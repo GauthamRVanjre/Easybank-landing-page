@@ -10,7 +10,7 @@ import youtube from "../../images/icon-youtube.svg";
 const Footer = () => {
   return (
     <>
-      <section className="footer-section">
+      <footer className="footer-section">
         <div className="footer-info">
           <div className="info-block-1">
             <div>
@@ -58,7 +58,7 @@ const Footer = () => {
             <li>© Easybank. All Rights Reserved</li>
           </ul>
         </div>
-      </section>
+      </footer>
     </>
   );
 };

@@ -18,7 +18,7 @@ const Features = () => {
         </div>
 
         <div className="row">
-          <div className="col">
+          <div className="col-12 col-md-3">
             <div className="features-card">
               <img src={online} alt="online banking" />
               <h5>Online Banking</h5>
@@ -28,7 +28,7 @@ const Features = () => {
               </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col-12 col-md-3">
             <div className="features-card">
               <img src={budgeting} alt="online budgeting" />
               <h5>Simple Budgeting</h5>
@@ -38,7 +38,7 @@ const Features = () => {
               </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col-12 col-md-3">
             <div className="features-card">
               <img src={onboarding} alt="fast onboarding" />
               <h5>Fast Onboarding</h5>
@@ -48,7 +48,7 @@ const Features = () => {
               </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col-12 col-md-3">
             <div className="features-card">
               <img src={api} alt="Open API" />
               <h5>Open API</h5>

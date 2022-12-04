@@ -33,7 +33,7 @@ const Navbar = () => {
               setIsNavExpanded(!isNavExpanded);
             }}
           >
-            <img src={hamburger} alt="" />
+            <img src={hamburger} alt="hamburger icon" />
           </button>
         </div>
         <div className="nav-links-container">
